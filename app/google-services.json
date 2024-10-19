@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "33919701455",
+    "project_id": "alarm-master-386fe",
+    "storage_bucket": "alarm-master-386fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33919701455:android:7daa7b110ff2977e7bc2ba",
+        "android_client_info": {
+          "package_name": "com.technogenis.alarammaster"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmaY15jJXvAq6W-gMIiqbso89djrv14As"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

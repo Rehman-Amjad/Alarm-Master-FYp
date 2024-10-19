@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="16dp"
+    android:scrollbars="none"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:gravity="center|top"
+       >
+       <!-- Image View for the Alarm Icon -->
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="?actionBarSize"
+          android:layout_gravity="center|start"
+          android:gravity="center|start"
+          >
+          <ImageView
+              android:id="@+id/backImage"
+              android:layout_width="25dp"
+              android:layout_height="25dp"
+              android:src="@drawable/ic_back" />
+
+          <TextView
+              android:id="@+id/tvTitle"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Set Silent Alarm"
+              android:textColor="@color/black"
+              android:textSize="20sp"
+              android:textStyle="bold"
+              android:textAlignment="center"
+              />
+
+      </LinearLayout>
+
+       <!-- Button to Set the Alarm -->
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Choose Date"
+           android:textColor="@color/black"
+           android:textSize="20sp"
+           android:layout_marginTop="20dp"
+           android:textStyle="bold"
+           android:textAlignment="textStart"
+           />
+
+       <DatePicker
+           android:id="@+id/datePicker"
+           android:layout_width="match_parent"
+           style="@style/CustomDatePicker"
+           android:layout_marginTop="10dp"
+           android:calendarTextColor="@color/black"
+           android:layout_height="wrap_content"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Choose Time"
+           android:textColor="@color/black"
+           android:textSize="20sp"
+           android:layout_marginTop="20dp"
+           android:textStyle="bold"
+           android:textAlignment="textStart"
+           />
+       <TimePicker
+           android:id="@+id/timePicker"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           style="@style/CustomTimePicker"
+           android:numbersInnerTextColor="@color/black"
+           android:timePickerMode="spinner"/>
+
+       <Button
+           android:id="@+id/btnSetAlarm"
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:text="Set Alarm"
+           android:background="@drawable/button_background"
+           android:layout_marginTop="40dp"
+           android:layout_marginBottom="80dp"
+           />
+
+       <Button
+           android:id="@+id/setNormalRingButton"
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:text="Set Normal Ring Mode Alarm"
+           android:background="@drawable/button_background"
+           android:layout_marginTop="16dp"
+           android:layout_marginBottom="80dp"/>
+   </LinearLayout>
+
+</ScrollView>
