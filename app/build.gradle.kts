@@ -43,6 +43,8 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation(libs.play.services.location)
+    implementation(libs.play.services.nearby)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -52,4 +54,14 @@ dependencies {
     implementation(libs.firebase.analytics)
     implementation(libs.firebase.auth)
     implementation(libs.firebase.firestore)
+
+    implementation (libs.play.services.maps)
+    implementation(libs.maps.utils.ktx)
+    implementation (libs.play.services.location)
+    implementation (libs.places)
+
+    implementation (libs.retrofit2.retrofit)
+    implementation (libs.converter.gson)
+
+
 }

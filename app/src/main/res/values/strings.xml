@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Alaram Master</string>
+
+    <string name="api_key">API_KEY</string>
 </resources>

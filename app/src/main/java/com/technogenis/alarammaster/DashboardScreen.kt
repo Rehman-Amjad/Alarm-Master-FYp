@@ -62,6 +62,10 @@ class DashboardScreen : AppCompatActivity() {
                     logIntent.putExtra("mode","normal")
                     startActivity(logIntent)
                 }
+                R.id.menuMap -> {
+                    val mapIntent = Intent(this@DashboardScreen, MapScreen::class.java)
+                    startActivity(mapIntent)
+                }
                 R.id.menuExit -> {
                     finishAffinity() // Better way to exit the app
                     return@setNavigationItemSelectedListener true

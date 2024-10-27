@@ -13,4 +13,5 @@
     <color name="colorPrimaryDark">#04508A</color>
     <color name="colorAccent">#04508A</color>
     <color name="red">#F82A1A</color>
+    <color name="pathColor">#FF6200EE</color>
 </resources>
